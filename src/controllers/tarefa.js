@@ -15,7 +15,8 @@ controller.list = async(request, response) => {
 controller.getById = async(request, response) => {
     const { id } = request.params 
     const tarefa = await service.getById(Number(id))
-        if(!id) {
+    
+        if(!tarefa) {
             return response.json("Tarefa não encontrada")
         } else {
             return response.json(tarefa)
