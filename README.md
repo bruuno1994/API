@@ -1,3 +1,5 @@
+Repositório do primeiro projeto de Back-End, desenvolvido como requisito para a disciplina de Desenvolvimento-Web-2
+
 Para que a aplicação funcione, será necessário criar um arquivo .env, na pasta principal do projeto.
 
 Após a criação do arquivo, dentro dele será necessário inserir a linha de código, responsável por fazer a ligação com o Banco de Dados.
